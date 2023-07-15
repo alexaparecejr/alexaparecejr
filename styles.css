@@ -1,0 +1,59 @@
+html {
+    margin:0;
+    padding:0;
+     }
+
+body {
+	
+	background-image: url("https://static.vecteezy.com/system/resources/thumbnails/005/495/559/small/abstract-digital-background-with-technology-circuit-board-texture-electronic-motherboard-illustration-communication-and-engineering-concept-illustration-free-vector.jpg");
+	background-size: cover;
+	background-position: left;
+	zoom: 100%;
+
+}
+
+a {
+   text-decoration : none;            
+   color:Blue;
+   font-style: italic;
+  }
+.hihi {
+    
+    width:200px;
+    height:50px;
+    
+    
+      }
+      
+.bigger {
+    
+    width:200px;
+    height:100px;    
+        }
+.background {    
+    background-color:grey;
+            }
+            
+#submit2{
+
+    color:black;
+}
+
+#name{
+    
+    width:183px;
+    margin-left:10px;
+    margin-top:10px;
+
+}
+
+#email2{
+    
+    margin-left:13px;
+    margin-top:5px;
+}
+
+#comment {
+    
+    margin-top: 5.5px;
+}

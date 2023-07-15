@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        
+            .justified {
+                text-align : justify ;
+                       }
+            .centered  {
+                text-align : center ;  
+                       }
+            .indented  {
+                text-indent : 2em ;
+                       }  
+            .container {
+                display : flex ;
+                justify-content : center ;
+                align-items : center ;s
+                       }
+            .my-margin {
+                margin : 50px ;       
+                       }
+            .circle-image {
+                border-radius : 50%;
+                border : 2px solid black ;
+                object-fit : cover ; 
+                width : 200px ;
+                height : 200px ;
+                                                                                                        
+        </style>
+        
+        <title> Practice ni Alex </title>
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script type="text/javascript" src="hihi.js"></script>
+	
+	
+        
+    </head>
+    
+    <body class = "my-margin"> 
+    
+        <h1> Alex, Jr. A. Aparece</h1> 
+        <h3> <small><strong> Programmer </strong></small></h3>
+        <hr/>
+        <h1 align = "center">Profile picture</h1>
+    <div class = "container">
+     <a href = "https://www.facebook.com/alexaparecejr" target = "_blank">
+        <img class = "circle-image" src = "https://i.postimg.cc/NGrNpy01/FB-IMG-1689083453198.jpg" alt = "Gwapong tao"/>
+     </a>
+    </div>
+        <h2>
+            <i>Summary</i>
+        </h2>
+        <p class = "indented justified">
+            I'm still a beginner, but I at least, have background in basic programming languages which is my foundation that helped me understand other languages without much struggles.
+        </p>
+        <h2>Experience</h2>
+        <ul>
+           <li><b>
+           C++ programming language user (may to june) </b> <br />
+           <p class = "indented justified">I created basic codes like simple calculator, date and time, and sign up and log in basic c++ code.</p>  
+           </li>            
+            
+           <li><b>
+           I learned JavaScript last year 2022 </b><br />
+               
+           <p class = "indented justified">but stop when class start, but its okay, its my first programming language ever learnt so its vague to remember. </p> 
+           </li>      
+        </ul> 
+        
+        <h2><i> Skills </i></h2>
+    <div class = "my-margin centered">
+        <table border = "1">
+            
+         <tr>
+             <th>Troubleshooting</t>
+             <td>Identify the problem</td> 
+             <td>Check connection</td>
+             <td>Install, repair, and maintain windows </td>
+         </tr>
+         <tr>
+             <th>Problem Solving Skills</th>
+             <td>Analytical thinking</td>
+             <td>Logical reasoning</td>
+             <td>Adaptability</td>
+         </tr>          
+        </table>
+    </div>
+            
+        <h2><i>Write me a message (ʘᴗʘ✿)</i></h2>
+        <p>You can log in and message me in facebook</p>
+        
+    <form id ="myForm">
+       <div class = " hihi">
+       
+       <labe for = "email" >Email:</label>
+        <input placeholder = "Email" type= "Text" id="email" name ="email"/><br />
+        
+    <label for ="password">Password</label>
+        <input placeholder = "Password" type="password" id="password" name ="password"/>
+        </div><br /><br />
+        <input type ="submit" value = "Log in" onclick ="submitForm(event)"/><br />
+        
+        <div id="errorMessage" style="color: red; display: none;"></div>
+        <br />
+        
+        <label for ="name">Name: </label>
+        <input placeholder = "Full name is Optional" type ="text" id="name"/><br />
+        <label for ="email2">Email: </label>
+        <input placeholder = "For me to reply"type ="text" id="email2")/>
+        
+        <br/><textarea class = "bigger" placeholder = "Message/Comment" id="comment"></textarea><br />
+        
+        <input type = "submit" id= "submit2" value = "Submit" onclick = "submitForm2(event)"/>
+        
+        <div id="errorMessage" style="color: red; display: none;"></div>
+
+                    
+    </form>
+    	<p>To know more and learn the deadliest move.</p>
+	<input type="submit" id="submit3" value="Click Here!" onclick = "submitForm3(event)"/>
+        <h2><i>Contacts</i></h2>    
+        <a href = "https://www.facebook.com/alexaparecejr" target="_blank">Facebook,</a>
+        <a href = "mailto:alexarnaizaparece@gmail.com" target="_blank">Gmail,</a>
+        <a href ="tel:09633127462" target="_blank">Number</a>
+
+    </body>    
+    
+</html>
